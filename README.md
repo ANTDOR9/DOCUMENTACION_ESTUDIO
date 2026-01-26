@@ -1,52 +1,44 @@
-# SENATI-FULL-STACK
-Prueba Nro 01
+# 🚀 El Viaje 
+¡Bienvenido a mi portafolio de ingeniería Full Stack! Este repositorio documenta mi progreso y aprendizaje profundo en el desarrollo web moderno, abarcando desde React y Node.js hasta GraphQL y pipelines CI/CD.
 
-Repositorio inicial del curso Full Stack.  
-Incluye archivos base del proyecto y estructura de carpetas.
+## 🛠️ Stack y Tecnologías
 
-## 🧰 Descripción de Full Stack
-Full Stack se refiere a la combinación del desarrollo **Frontend** y **Backend**.  
-Un desarrollador Full Stack domina tecnologías como HTML, CSS, JavaScript, Node.js y bases de datos.  
-Permite crear aplicaciones web completas y funcionales.
+| Frontend | Backend | DevOps y Testing |
+|----------|---------|------------------|
+| React, React Native | Node.js, Express | GitHub Actions |
+| Redux, Context API | MongoDB, PostgreSQL | Jest, Playwright |
+| TypeScript | GraphQL, Apollo | Docker |
 
-# 🛰️ Sistema de Vigilancia IoT — EMPRESARIOTEC S.A.
-El Sistema de Vigilancia IoT permite detectar movimiento y medir distancia con sensores conectados al Pico W.  
-Su propósito es prevenir incidentes mediante alertas visuales y sonoras.
+## 📂 Módulos y Progreso
 
-## 🧩 Componentes utilizados
+Aquí hay un desglose de los módulos completados durante este viaje de aprendizaje:
 
-| Componente | Descripción | Costo (USD) |
-|-------------|--------------|-------------|
-| Raspberry Pi Pico W | Microcontrolador con Wi-Fi | 8.00 |
-| Sensor HC-SR04 | Mide distancia | 2.50 |
-| Sensor PIR HC-SR501 | Detecta movimiento | 3.00 |
-| Pantalla LCD I2C | Muestra datos | 5.00 |
-| Buzzer activo | Emite sonido de alerta | 1.50 |
-| Cables y Protoboard | Conexiones eléctricas | 3.00 |
-| Fuente 5V | Alimentación del sistema | 2.00 |
+### 🔹 Fundamentos
+- **[Módulo 0: Fundamentos Web](./module-0)** - Arquitectura y Protocolos
+- **[Módulo 1: Introducción a React](./module-1)** - Componentes y Props
+- **[Módulo 2: Comunicación con el Servidor](./module-2)** - Renderizado de Colecciones y Formularios
 
-## ⚙️ Funcionamiento general
-1. El sensor ultrasónico mide distancia.  
-2. Si la distancia es menor al umbral crítico, el buzzer emite una alarma.  
-3. El sensor PIR detecta movimiento y activa una alerta adicional.  
-4. La LCD muestra datos en tiempo real.
+### 🔹 Desarrollo Backend
+- **[Módulo 3: Node.js y Express](./module-3)** - APIs RESTful
+- **[Módulo 4: Testing y Autenticación](./module-4)** - Unit Testing, Integration Testing, Auth de Usuarios
 
-## 🧠 Aplicaciones prácticas
-- Seguridad en empresas tecnológicas 🏢  
-- Monitoreo en laboratorios 🔬  
-- Proyectos educativos de IoT 🎓  
-- Automatización del hogar 🏠  
+### 🔹 Frontend Avanzado
+- **[Módulo 5: Testing de Apps React](./module-5)** - Testing E2E con Playwright
+- **[Módulo 6: Gestión de Estado](./module-6)** - Redux, React Query
+- **[Módulo 7: React Router y Webpack](./module-7)** - Navegación, Custom Hooks, Estilos
 
-## ✍️ Autor  
-**Jose Gabriel Ramírez Mamani**  
-Proyecto académico SENATI — Curso Full Stack.
+### 🔹 Datos Gráficos Modernos
+- **[Módulo 8: GraphQL](./module-8)** - Apollo Server y Client
 
-## 🧰 Licencia  
-Licencia **MIT**: libre uso, modificación y distribución con atribución al autor original.
+### 🔹 Tipado Estático
+- **[Módulo 9: TypeScript](./module-9)** - Casting, Interfaces, Tipado en React/Express
 
-## ✅ Estado final del proyecto  
-Repositorio completo, con documentación, estructura HTML y archivos multimedia.  
-Versión lista para presentación académica y revisión docente.
+### 🔹 Nativo y Contenedores
+- **[Módulo 10: React Native](./module-10)** - Construcción de Apps Móviles
+- **[Módulo 12: Contenedores](./module-12)** - Docker y Orquestación
+- **[Módulo 13: Bases de Datos Relacionales](./module-13)** - PostgreSQL y Consultas Join
+
+---
 
 
-📌 Cada carpeta y archivo está organizado para mantener una estructura clara y profesional, facilitando futuras actualizaciones.
+
