@@ -1,0 +1,35 @@
+### Ruta que devuelve "pong".
+GET http://localhost:3001/api/ping
+
+### Ruta que devuelve todos los diagnósticos posibles.
+GET http://localhost:3001/api/diagnoses
+
+### Ruta que devuelve todos los pacientes.
+GET http://localhost:3001/api/patients
+
+### Ruta para agregar nuevo paciente.
+POST http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+    "name": "Paciente E13",
+    "dateOfBirth": "2025/12/24",
+    "ssn": "12346",
+    "gender":"male",
+    "occupation": "idk"
+}
+
+### Ruta para agregar una entrada para un paciente. 
+POST http://localhost:3001/api/patients/d2773336-f723-11e9-8f0b-362b9e155667/entries
+Content-Type: application/json
+
+{
+  "type": "Hospital",
+  "description": "Cirugía de apéndice",
+  "date": "2023-09-15",
+  "specialist": "Dr. Grey",
+  "discharge": {
+    "date": "2023-09-20",
+    "criteria": "Paciente estable"
+  }
+}

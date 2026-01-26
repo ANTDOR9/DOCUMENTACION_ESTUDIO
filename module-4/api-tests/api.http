@@ -1,0 +1,40 @@
+### Ruta para obtener todos los blogs.
+GET http://localhost:3003/api/blogs
+
+### Agregar un nuevo blog.
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer ingresareltokenaquí
+
+{
+    "title": "Blog de prueba",
+    "author": "trafi",
+    "url": "https://fullstackopen.com/es/",
+    "likes": 10
+}
+
+### Ruta para obtener todos los usuarios.
+GET http://localhost:3003/api/users
+
+### Crear un nuevo usuario.
+POST http://localhost:3003/api/users 
+Content-Type: application/json
+
+{
+    "username": "edisson_test",
+    "name": "Edisson",
+    "password": "1e1jdn2n"
+}
+
+### Logearse.
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+    "username": "eltrafi",
+    "password": "wedew"
+}
+
+### Eliminar un blog.
+DELETE http://localhost:3003/api/blogs/68ee6951c0d187d8f040ee79
+Authorization: Bearer ingresareltokenaquí
