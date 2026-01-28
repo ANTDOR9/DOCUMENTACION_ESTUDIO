@@ -1,6 +1,5 @@
 # 🚀 Módulo 10: React Native
-👤 **Realizado por:** Edisson Ronald Paricahua Calla ([@edissonparicahua123](https://github.com/edissonparicahua123))
-📅 **Año:** 2026
+
 ---
 
 > [!IMPORTANT]  
