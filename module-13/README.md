@@ -1,6 +1,6 @@
 # 🚀 Módulo 13: Bases de Datos Relacionales
-👤 **Realizado por:** Edisson Ronald Paricahua Calla ([@edissonparicahua123](https://github.com/edissonparicahua123))
-📅 **Año:** 2026
+
+
 ---
 
 # Ejercicios 13.1.-13.3.
