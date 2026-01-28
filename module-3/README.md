@@ -1,5 +1,5 @@
 # 🚀 Módulo 3: Node.js y Express
-👤 **Realizado por:** Edisson Ronald Paricahua Calla ([@edissonparicahua123](https://github.com/edissonparicahua123))
+
 📅 **Año:** 2026
 ---
 
